@@ -70,7 +70,7 @@ read
 local_1() {
 printf "\e[93m [!] Starting LocalTunnel...\e[0m\n"
 py_server
-localxpose tunnel http --to :2233 > tunlink 2> /dev/null &
+./localxpose tunnel http --to :2233 > tunlink 2> /dev/null &
 local_link=$(grep -o "https://[1-9a-z]*\.loclx.io" tunlink)
 echo " "
 echo -e "$ocen Link --> $local_link $blank"
